@@ -17,5 +17,5 @@ pySSEM is a tool that investigates the evolution of the space objects population
    tutorial
    overall_scenario_properties
    species_properties
-   model
+   
    
