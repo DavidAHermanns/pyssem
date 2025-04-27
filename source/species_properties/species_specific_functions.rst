@@ -10,7 +10,7 @@ The options available for Launch Function are either [launch_func_constant] for 
 **Impact of SEPs**:  
 The SEPs define the future launch model (FLM), which determines the launch rates and distributions over time. The `launch_func_constant` function uses the launch rates derived from the SEP to assign a constant launch rate to each shell. For example, in scenarios like SEP 3 M (Space Winter), the launch rates may decrease over time, directly affecting the behavior of this function.
 
-Example usage outside the initial species build:  
+Usage: 
 File: `pyssem/utils/launch/launch.py`, Lines: 69–79  
 
 .. code-block:: python
@@ -32,7 +32,7 @@ The options available for PMD Function are either [pmd_func_sat] for PMD-enabled
 **Impact of SEPs**:  
 The SEPs influence the PMD success rate by defining the sustainability efforts in each scenario. For example, in SEP 5 H (Commercial-driven Development with High Sustainability Effort), the PMD percentage and efficiency are likely higher, leading to more successful satellite disposals. Conversely, in SEP 4 (Strategic Rivalry), sustainability efforts are lower, reducing PMD success rates.
 
-Example usage outside the initial species build:  
+Usage:
 File: `pyssem/utils/simulation/scen_properties.py`, Lines: 245–260  
 
 .. code-block:: python
@@ -49,7 +49,7 @@ File: `pyssem/utils/simulation/scen_properties.py`, Lines: 245–260
 
 The options available for Drag Function are either [drag_func_exp] for satellites that experience drag, or [drag_func_none] for those that don’t.
 
-Example usage outside the initial species build:  
+Usage:  
 File: `pyssem/utils/drag/drag.py`, Lines: 208–220  
 
 .. code-block:: python

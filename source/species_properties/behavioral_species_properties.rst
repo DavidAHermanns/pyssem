@@ -11,7 +11,7 @@ Behavioral Inputs
 
 (Toggle On/Off) [Sink] This parameter controls whether the satellites of the selected species are modeled to perform station keeping to control against perturbations. This selection is controlled also by other factors.
 
-Example usage outside the initial species definition:  
+Usage:
 File: `pyssem/utils/simulation/scen_properties.py`, Lines: 636–650  
 
 .. code-block:: python
@@ -25,7 +25,7 @@ File: `pyssem/utils/simulation/scen_properties.py`, Lines: 636–650
 
 (Toggle On/Off) [Sink] This parameter controls whether the satellites of the selected species are modeled to maneuver to avoid collisions. The success of the maneuverability is determined by either probabilistic models or user-defined inputs.
 
-Example usage outside the initial species definition:  
+Usage: 
 File: `pyssem/utils/collisions/collisions.py`, Lines: 324–330  
 
 .. code-block:: python
@@ -39,7 +39,7 @@ File: `pyssem/utils/collisions/collisions.py`, Lines: 324–330
 
 (Numeric Entry) [Sink] This input controls the amount of time that an active satellite stays ‘active’, if that satellite’s “Post Mission Disposal” attempt were to fail (based upon the PMD percentage).
 
-Example usage outside the initial species definition:  
+Usage:  
 File: `pyssem/utils/pmd/pmd.py`, Lines: 20–30  
 
 .. code-block:: python
@@ -53,7 +53,7 @@ File: `pyssem/utils/pmd/pmd.py`, Lines: 20–30
 
 (Slider, numeric) PMD refers to “Post Mission Disposal”. The PMD percentage is the percentage of vehicles that are disposed of (by their simulated operators) after their mission ends. If a mission fails, this value determines the disposal rate.
 
-Example usage outside the initial species definition:  
+Usage:  
 File: `pyssem/utils/pmd/pmd.py`, Lines: 46–60  
 
 .. code-block:: python
@@ -68,7 +68,7 @@ File: `pyssem/utils/pmd/pmd.py`, Lines: 46–60
 
 Values for Alpha range from [0] to [1], where [0 = perfect collision avoidance, 1 = none]. A value of 0.1 would mean that 1/10 collision avoidance maneuvers fail. If Alpha is unknown for the capability, a default value may be used.
 
-Example usage outside the initial species definition:  
+Usage:  
 File: `pyssem/utils/collisions/collisions.py`, Lines: 324–330  
 
 .. code-block:: python
@@ -84,7 +84,7 @@ File: `pyssem/utils/collisions/collisions.py`, Lines: 324–330
 
 Values for Alpha Active range from [0] to [1], where [0 = perfect collision avoidance, 1 = none]. A value of 0.1 would mean that 1/10 collision avoidance maneuvers fail. If Alpha Active is unknown for the capability, a default value may be used.
 
-Example usage outside the initial species definition:  
+Usage:  
 File: `pyssem/utils/collisions/collisions.py`, Lines: 324–330  
 
 .. code-block:: python
@@ -97,7 +97,7 @@ File: `pyssem/utils/collisions/collisions.py`, Lines: 324–330
 
 (Toggle On/Off) [Sink] This toggle controls whether the satellite orbits within a ‘slot’ as part of a larger constellation within the species. Slotted orbits are those which are deconflicted with other satellites in the same constellation.
 
-Example usage outside the initial species definition:  
+Usage:  
 File: `pyssem/utils/collisions/collisions.py`, Lines: 324–330  
 
 .. code-block:: python
@@ -113,7 +113,7 @@ File: `pyssem/utils/collisions/collisions.py`, Lines: 324–330
 
 Values for Slotting Effectiveness range from [1] to [0], where [1 = perfect slotting, 0 = no slotting].
 
-Example usage outside the initial species definition:  
+Usage:  
 File: `pyssem/utils/collisions/collisions.py`, Lines: 324–330  
 
 .. code-block:: python
@@ -126,7 +126,7 @@ File: `pyssem/utils/collisions/collisions.py`, Lines: 324–330
 
 (Toggle On/Off) This toggle controls whether the selected species of satellite is affected by drag. If toggled on, which is a more realistic option for a LEO scenario, the propagator will consider the drag force acting on the satellites.
 
-Example usage outside the initial species definition:  
+Usage: 
 File: `pyssem/utils/drag/drag.py`, Lines: 104–120  
 
 .. code-block:: python

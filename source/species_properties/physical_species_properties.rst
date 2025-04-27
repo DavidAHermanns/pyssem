@@ -12,7 +12,7 @@ Physical Properties Inputs
 
 This value has historically been assumed to be ~2.2 for LEO satellites, but may be smaller or larger for certain species.
 
-Example usage outside the initial species build:
+Usage:
 File: `pyssem/utils/drag/drag.py`, Lines: 208–220
 
 .. code-block:: python
@@ -29,7 +29,7 @@ File: `pyssem/utils/drag/drag.py`, Lines: 208–220
 
 Satellites and debris can vary in mass. Smallsats like a 1U CubeSat can measure around 2kg. SpaceX Starlink satellites are larger, ranging between 200kg to 1250kg depending on their versions. The International Space Station is the heaviest spacecraft currently in orbit, with a mass of approximately 450,000kg.
 
-Example usage outside the initial species build:
+Usage:
 File: `pyssem/utils/simulation/species_pair_class.py`, Lines: 57–65
 
 .. code-block:: python
@@ -43,7 +43,7 @@ File: `pyssem/utils/simulation/species_pair_class.py`, Lines: 57–65
 
 (Numeric Entry) [Sink] This is the radius of the satellite. This is used to inform the area of the satellite if an area value was not provided by the user. An increased radius will increase the effect of drag on the satellite. Additionally, the radius of the satellite is used by the collision calculator in pySSEM to determine debris creation parameters in the case of a collision.
 
-Example usage outside the initial species build:
+Usage:
 File: `pyssem/utils/simulation/species_pair_class.py`, Lines: 102–110
 
 .. code-block:: python
@@ -60,7 +60,7 @@ File: `pyssem/utils/simulation/species_pair_class.py`, Lines: 102–110
 
 (Numeric Entry) [Sink] This is the cross-sectional area of the satellite. An increased area will increase the effect of drag on the satellite. Additionally, the area of the satellite is used by the collision calculator in pySSEM to determine debris creation parameters in the case of a collision.
 
-Example usage outside the initial species build:
+Usage:
 File: `pyssem/utils/drag/drag.py`, Lines: 208–220
 
 .. code-block:: python
