@@ -16,8 +16,7 @@ Adding Inputs
 -------------
 1. Click the 'Advanced Options' button to expand the input fields.
 2. Fill in all fields.
-3. Click the button at the bottom of the page to begin to add species to the simulation.
-    3a. A flyout will appear with a list of species options to add to the simulation.
+3. Click the button at the bottom of the page to begin to add species to the simulation. A flyout will appear with a list of species options to add to the simulation.
 
 Submitting the Simulation
 --------------------------
