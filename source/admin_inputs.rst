@@ -6,8 +6,7 @@ Administrative Inputs
 This document provides an overview of the administrative inputs required for the **pyssem** tool.
 
 
-Inputs
------------
+
 **Simulation Name**
 
 (Text Entry) This is the name of your simulation, and should be unique enough to distinguish your

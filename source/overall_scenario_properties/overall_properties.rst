@@ -5,9 +5,6 @@ Overall Scenario Properties
 
 This page provides a description of all properties that have an effect on the simulation of the entire scenario. These properties are static throughout the entire timespan of the scenario and do not change.
 
-Inputs
------------
-
 **Start Date (DD/MM/YYYY)**
 
 (Text Entry) This is the start date of your simulation, and must be entered in the DD/MM/YYYY format.
