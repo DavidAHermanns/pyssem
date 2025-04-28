@@ -7,7 +7,8 @@ Contents
    :maxdepth: 50
    :caption: Contents:
 
-   tutorial/getting_started
+   tutorial/getting_started_local
+   tutorial/getting_started_web
    admin_inputs
    overall_scenario_properties/overall_properties
    overall_scenario_properties/advanced_options
