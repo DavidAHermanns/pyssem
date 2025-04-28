@@ -14,7 +14,7 @@ Inputs
 This parameter, when paired with the ‘Simulation Duration’ parameter, determines how far into the
 future the simulation will model.
 
-Example usage outside the initial model build:  
+Usage: 
 File: `pyssem/utils/handlers/datetime_helper.py`, Lines: 267–280  
 
 .. code-block:: python
@@ -28,7 +28,7 @@ File: `pyssem/utils/handlers/datetime_helper.py`, Lines: 267–280
 
 (Numeric Entry) This field is the number of years, from your chosen ‘Start Date’, that your simulation will run.
 
-Example usage outside the initial model build:  
+Usage:   
 File: `pyssem/utils/simulation/scen_properties.py`, Lines: 156–170  
 
 .. code-block:: python

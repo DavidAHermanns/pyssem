@@ -1,4 +1,4 @@
-Getting Started
+Getting Started with pySSEM locally
 ===============
 
 This tutorial walks you through the basics of setting up `pySSEM`.
