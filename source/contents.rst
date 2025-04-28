@@ -1,8 +1,6 @@
 .. _contents:
 
-===========================
-Contents
-===========================
+
 .. toctree::
    :maxdepth: 50
    :caption: Contents:
