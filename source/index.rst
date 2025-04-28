@@ -10,13 +10,13 @@ pySSEM is a tool that investigates the evolution of the space objects population
 
 
 .. toctree::
-   :maxdepth: 10
+   :maxdepth: 1
    :caption: pySSEM Documentation:
 
    contents
    tutorial
    overall_scenario_properties
    species_properties
-   SEPs
+   
    
    
