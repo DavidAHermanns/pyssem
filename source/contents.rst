@@ -2,8 +2,8 @@
 
 
 .. toctree::
-   :maxdepth: 50
-   :caption: pySSEM Documentation:
+   :maxdepth: 2
+   :caption: Contents:
 
    tutorial/getting_started_local
    tutorial/getting_started_web
